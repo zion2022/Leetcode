@@ -24,6 +24,8 @@ import static java.lang.Character.getType;
  * @create 2021-07-08 19:13
  */
 public class LeetcodeTest {
-    String s="fix";
+    String s="master";
+
+    String s1="fix";
 }
 
