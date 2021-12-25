@@ -24,24 +24,6 @@ import static java.lang.Character.getType;
  * @create 2021-07-08 19:13
  */
 public class LeetcodeTest {
-    public static void main(String[] args) {
 
-
-    }
-}
-class Solution1 {
-    public boolean isSymmetric(TreeNode root) {
-        return check(root, root);
-    }
-
-    public boolean check(TreeNode p, TreeNode q) {
-      if(p == null && q==null){
-          return true;
-      }
-      if(p==null || q==null){
-          return false;
-      }
-      return p.val ==q.val &&check(p.left,q.right) && check(p.right,)
-    }
 }
 
